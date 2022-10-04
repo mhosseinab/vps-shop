@@ -1,0 +1,12 @@
+{
+  "extends":[ 
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@next/next/no-img-element": "off"
+  }
+}
